@@ -46,7 +46,7 @@ export default function Form() {
         <meta name="description" content="AI がどんな質問にも答えます" />
       </Head>
 
-      <h1 className="text-3xl font-bold leading-3 text-white-900 mb-5">
+      <h1 className="text-3xl font-bold leading-3 text-white mb-5 ml-5">
         Next.js で作る初めての OpenAI アプリ
       </h1>
 
@@ -113,8 +113,8 @@ export default function Form() {
           </form>
         </div>
 
-        <div className="mt-4 mr-4 shadow sm:overflow-hidden sm:rounded-md">
-          <div className="bg-white px-4 py-5 sm:p-6">
+        <div className="mt-4 mr-4 shadow sm:rounded-md">
+          <div className="bg-white px-4 py-5 sm:p-6 sm:overflow-hidden sm:rounded-md">
             <h2 className="text-base font-semibold leading-6 text-gray-900">
               質問の答え
             </h2>
@@ -132,6 +132,7 @@ export default function Form() {
             )}
           </div>
         </div>
+
       </div>
     </div>
   );
